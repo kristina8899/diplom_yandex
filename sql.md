@@ -6,3 +6,4 @@ WHEN "cancelled" = true THEN -1
 WHEN "finished" = true THEN 2 ELSE 0 
 END AS update_order 
 FROM "Orders";
+3. 
